@@ -3,7 +3,7 @@ def clasificar_producto():
     tipo_producto = input("Ingrese el código de tipo del producto (A, B, C): \n").upper()
     peso = float(input("Ingrese el peso del producto (kg): \n"))
     fragilidad = input("Ingrese la fragilidad del producto (F o N): \n").upper()
-
+   
     if peso >= 20:
         peso_categoria = "Pesado"
     elif peso >= 10:
@@ -35,7 +35,7 @@ def clasificar_producto():
             print("Manejo estándar")
         elif peso_categoria != "Pesado":
             print("Producto no pesado: Manejo estándar")
-    
+  
 
 
 clasificar_producto()
