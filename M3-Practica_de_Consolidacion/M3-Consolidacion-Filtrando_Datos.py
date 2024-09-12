@@ -25,6 +25,7 @@ nombres_cientificos = {1, 3, 6}
 #     else:
 #         otros.append(nombres[nombre])
 
+#Lista por comprención:
 magos= [nombres[i] for i in range(len(nombres)) if i in nombres_magos]
 cientificos = [nombres[i] for i in range(len(nombres)) if i in nombres_cientificos]
 otros = [nombres[i] for i in range(len(nombres)) if i not in nombres_magos and i not in nombres_cientificos]
